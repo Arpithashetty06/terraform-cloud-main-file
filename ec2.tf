@@ -44,6 +44,6 @@ module "dev_iam_1" {
   source  = "app.terraform.io/Shetty_Arpitha_Devops_06/iam/modules"
   version = "1.0.0"
   environment         = module.dev_vpc_1.environment
-  rolename            = "SaiTMRole"
-  instanceprofilename = "SaiTMinstprofile"
+  rolename            = "Arpitha_Shetty_role"
+  instanceprofilename = "Arpitha_Shetty"
 }
